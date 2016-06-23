@@ -20,4 +20,8 @@ public class WeatherApplication extends Application {
                 .weatherModule(new WeatherModule())
                 .build();
     }
+
+    public WeatherComponent getWeatherComponent() {
+        return mWeatherComponent;
+    }
 }

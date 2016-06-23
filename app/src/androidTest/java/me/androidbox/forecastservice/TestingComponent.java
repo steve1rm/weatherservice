@@ -11,5 +11,5 @@ import me.androidbox.forecastservice.di.WeatherComponent;
 @Singleton
 @Component(modules = {MockWeatherModule.class})
 public interface TestingComponent extends WeatherComponent {
-    void inject(MainActivity target);
+    void inject(MainActivityTest target);
 }
